@@ -368,9 +368,9 @@
          overflow-y: auto;
     }
      #main-navigation-wrapper .navbar-collapse {
-         border-color: #232333;
+         border-color: #fff;
          border-radius: 0px;
-         background: #f2ae2b;
+         background: #1050bd;
          text-align:center;
     }
      .navbar-nav {
@@ -389,7 +389,7 @@
          display: block;
          width: 100%;
          padding: 16px 25px;
-         border-bottom: 1px solid #f3c05f !important;
+         border-bottom: 1px solid #fff !important;
          border-right: 0px;
          position: relative;
          font-size: 15px;
