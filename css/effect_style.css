@@ -137,10 +137,10 @@
 	float:right; width:100%; text-align:left; margin-right:-92px; margin-top:105px; z-index:20; position:relative;
 }
 #minimal-bootstrap-carousel.home1 .carousel-caption .thm-container .box .content.home1-slides h1{
-	color:#000;
+	color:#fff;
 }
 #minimal-bootstrap-carousel.home1 .carousel-caption .thm-container .box .content.home1-slides p{
-	color:#000;
+	color:#fff;
 }
 #minimal-bootstrap-carousel .carousel-caption .thm-container .box .content.text-left{
 	text-align:left; padding-left:10px;

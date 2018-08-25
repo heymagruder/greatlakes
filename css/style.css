@@ -176,6 +176,7 @@ Table of Content:
      width:100%;
      float:left;
      height:auto;
+     padding-right: 60px;
 }
  .yellow-background{
      background:#1050bd;
@@ -993,7 +994,8 @@ Table of Content:
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
  .head-section{
-     margin-bottom:50px;
+     margin-bottom: 140px;
+     margin-top: 40px;
 }
  .head-section h3{
      margin:47px 0px;
@@ -1795,7 +1797,7 @@ Table of Content:
 }
  .inner-pages-bnr h1{
      font-size:45px;
-     color:#fff;
+     color:#091942;
      text-transform:none;
      margin-bottom:10px;
 }
