@@ -1805,7 +1805,7 @@ Table of Content:
 }
  .inner-pages-bnr h1{
      font-size:45px;
-     color:#091942;
+     color:#ffffff;
      text-transform:none;
      margin-bottom:10px;
 }
@@ -2302,11 +2302,8 @@ Table of Content:
      width:100%;
      float:left;
      padding:40px 0px 0px 20px;
- /*    background:url("http://via.placeholder.com/321x212") no-repeat center top;
-     border-bottom:4px solid #ffae13;
-     background-size:cover; */
      position:relative;
-     background-color: #eaeaea;
+     background-color: #091842;
 }
  .contact-help h4{
      color:#fff;
