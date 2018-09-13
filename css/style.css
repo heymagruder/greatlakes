@@ -2296,12 +2296,12 @@ Table of Content:
      padding:10px;
 }
  ul.office-information li .info-txt.fnt_17{
-     font-size:17px;
+     font-size:16px;
 }
  .contact-help{
      width:100%;
      float:left;
-     padding:40px 0px 40px 20px;
+     padding:40px 76px 40px 15px;
      position:relative;
      background-color: #091842;
 }
