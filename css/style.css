@@ -2301,7 +2301,7 @@ Table of Content:
  .contact-help{
      width:100%;
      float:left;
-     padding:40px 0px 0px 20px;
+     padding:40px 0px 40px 20px;
      position:relative;
      background-color: #091842;
 }
@@ -2323,8 +2323,8 @@ Table of Content:
      content:"";
 }
  a.pdf-button{
-     font-size:18px;
-     color:#242424;
+     font-size:16px;
+     color:#fff;
      font-weight:700;
      font-family: 'Montserrat', sans-serif;
      text-decoration:none;
