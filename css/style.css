@@ -234,6 +234,7 @@ Table of Content:
 }
  ul.header-info li.phn{
      width:52%;
+     padding-top: 8px;
 }
  ul.header-info li.address:before{
      content: "\f041";
@@ -443,7 +444,7 @@ Table of Content:
      color: #1050bd;
 }
  .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:focus, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a, .header1 #main-navigation-wrapper.navbar-default .navbar-nav > li > a.active {
-     color: #091842;
+     color: #ffffff;
      background:#01bfff;
 }
  #main-navigation-wrapper .navbar-nav .dopdown-nav-toggler {
@@ -1024,7 +1025,7 @@ Table of Content:
 }
  .service-column h5{
      font-size:16px;
-     margin:5px 0px 20px;
+     margin:25px 0px 20px;
 }
  .service-column p span{
      font-weight:700;
@@ -4178,34 +4179,4 @@ Table of Content:
 }
 .checkout-form .form-submit-btn:hover{
 	opacity: .8;
-}
-
-
-
-
-.Ocean {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 1200px;
-  height: 400px;
-}
-
-.Wave {
-  width: 4000px;
-  animation-name: swell;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  fill: #091842;
-}
-
-@keyframes swell {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
 }
