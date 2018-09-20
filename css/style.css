@@ -1006,12 +1006,21 @@ Table of Content:
      margin-bottom: 140px;
      margin-top: 40px;
 }
+
+.head-section-sm {
+    margin-top: 40px;
+}
  .head-section h3{
      margin:47px 0px;
 }
  .head-section p{
      border-left:1px solid #838383;
      padding:4px 41px;
+}
+ .service-column2{
+     padding:30px 60px;
+     transition: all .3s ease-out;
+     float:left;
 }
  .service-column{
      padding:30px 15px;
@@ -1022,6 +1031,13 @@ Table of Content:
      width:78px;
      height:78px;
      display:inline-block;
+}
+ .service-column2 h5{
+     font-size:16px;
+     margin:25px 0px 20px;
+}
+ .service-column2 p span{
+     font-weight:700;
 }
  .service-column h5{
      font-size:16px;
@@ -1065,6 +1081,13 @@ Table of Content:
      padding:81px 0px 63px;
      height:480px;
 	 background:#f1f1f1;
+}
+
+.bestthing-section-sm {
+    position: relative;
+    padding: 0px 0px 63px;
+    height: 580px;
+    background: #f1f1f1;
 }
  .bestthing-text-column{
      z-index:1;
@@ -1834,7 +1857,11 @@ Table of Content:
 /*======inner pages banner end=======*/
 /*=======about-page========*/
  .bestthing-section.why-choose-section{
-     height:469px;
+     height:600px;
+}
+
+ .bestthing-section.why-choose-section-sm{
+     height:450px;
 }
  .bestthing-section.why-choose-section .bestthing-text-column {
      padding-top:10px;
