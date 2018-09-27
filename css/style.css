@@ -233,7 +233,6 @@ Table of Content:
 	 width: 42%;
 }
  ul.header-info li.phn{
-     width:52%;
      padding-top: 8px;
 }
  ul.header-info li.address:before{
@@ -980,6 +979,16 @@ Table of Content:
      background:#00bfff;
      color:#000;
 }
+a.header-requestbtn.learn-more2{
+     padding:14px 10px;
+     float:left;
+     margin-right:10px;
+     width:185px;
+     font-size:17px;
+     text-align:center;
+     background:#00bfff;
+     color:#000;
+}
  a.header-requestbtn.learn-more:before{
      background:#fff;
 }
@@ -1018,7 +1027,7 @@ Table of Content:
      padding:4px 41px;
 }
  .service-column2{
-     padding:30px 60px;
+     padding:50px 20px;
      transition: all .3s ease-out;
      float:left;
 }
@@ -2317,13 +2326,12 @@ Table of Content:
  ul.office-information li .info-txt{
      width:90%;
      float:right;
-     font-size:16px;
+     font-size:15px;
      color: #fff;
-     border-left:1px solid #8e8e8e;
      padding:10px;
 }
  ul.office-information li .info-txt.fnt_17{
-     font-size:16px;
+     font-size:15px;
 }
  .contact-help{
      width:100%;
