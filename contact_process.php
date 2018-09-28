@@ -32,7 +32,7 @@
 	$body .= "</body></html>";
 	
     $send = mail($to, $mailsubject, $body, $headers);
-	header('Location:contact.html');
+	header('Location:thank-you.html');
 	die();
 }
 else if(isset($_REQUEST['getinTouch']))
@@ -68,7 +68,7 @@ else if(isset($_REQUEST['getinTouch']))
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
     $send = mail($to, $mailsubject, $body, $headers);
-	header('Location:index.html');
+	header('Location:thank-you.html');
 	die();
 }
 else if(isset($_REQUEST['requestaQuote']))
@@ -107,7 +107,7 @@ else if(isset($_REQUEST['requestaQuote']))
 	$body .= "</body></html>";
     
     $send = mail($to, $mailsubject, $body, $headers);
-	header('Location:request-quote.html');
+	header('Location:thank-you.html');
 	die();
 }
 else if(isset($_REQUEST['yourRating']))
@@ -142,7 +142,7 @@ else if(isset($_REQUEST['yourRating']))
 	$body .= "</body></html>";
     
     $send = mail($to, $mailsubject, $body, $headers);
-	header('Location:shop-detail.html');
+	header('Location:thank-you.html');
 	die();
 }
 else if(isset($_REQUEST['checkout']))
@@ -198,6 +198,6 @@ $body .= "<tr><td style='border:none;'><strong>Order notes:</strong> {$notes}</t
 	$body .= "</body></html>";
    
     $send = mail($to, $mailsubject, $body, $headers);
-	header('Location:checkout.html');
+	header('Location:thank-you.html');
 	die();
 }
